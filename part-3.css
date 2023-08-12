@@ -1,0 +1,26 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    #countryTableContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    #countryTable {
+      border-collapse: collapse;
+      width: 80%;
+      max-width: 800px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
